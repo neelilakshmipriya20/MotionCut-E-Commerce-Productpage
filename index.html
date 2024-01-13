@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mobiles - Vivo Y19</title>
+</head>
+<body>
+
+    <script src="script.js"></script>
+    
+    <header>
+        <h1>Mobiles - Vivo Y19</h1>
+    </header>
+
+    <div class="product-container">
+        <img src="https://i.ytimg.com/vi/tNqkFkRQM7A/maxresdefault.jpg" alt="Vivo Y19" class="product-image">
+        <div class="product-info">
+            <h2>Vivo Y19</h2>
+            <p>Screen size : 6.53 inches<br>
+               Resolution : 1080 x 2340 pixels<br>
+                Product size : 162.2 x 76.5 x 8.9 mm</p>
+            <p>Price: $19.99</p>
+            <div class="quantity-selector">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="1" value="1">
+            </div>
+            <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart-notification" id="cartNotification">
+        Product added to cart!
+    </div>
+
+    
+</body>
+</html>
